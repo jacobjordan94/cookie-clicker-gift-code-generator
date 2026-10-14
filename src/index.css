@@ -28,6 +28,12 @@ textarea {
     border-radius: 4px;
 }
 
+.gift-frame {
+    display: block;
+    padding: 4px;
+    border: 3px solid transparent;
+}
+
 .framed {
     padding: 4px 8px;
     margin: 4px;
@@ -40,15 +46,9 @@ textarea {
         0px 0px 6px 1px rgba(0, 0, 0, 0.5) inset;
 }
 
-.gift-frame {
-    display: block;
-    padding: 4px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: transparent;
-}
-
+/* Square frame for the selected gift */
 .gift-frame.framed {
+    padding: 4px;
     margin: 0;
 }
 
