@@ -7,7 +7,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A web app for creating [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) gift codes. It looks like the game's own "Send a Gift" window: choose how many cookies to send (1–1000), write an optional note, pick a box design, and copy the code it generates.
+**[Try it live →](https://cookie-clicker-gift-code-generator.jacob-jordan.me/)**
+
+A web app for creating [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) gift codes. Choose how many cookies to send (1–1000), write an optional note, pick a box design, and copy the code it generates.
 
 To redeem a code, paste it into Cookie Clicker's "Redeem a gift" option. Like the game, codes expire after a day or two, so generate a new one rather than reusing an old one.
 
@@ -63,7 +65,7 @@ Tests sit next to the code they test, as `*.test.ts`.
 
 ## Deployment
 
-The app is hosted on Cloudflare Pages, which builds it straight from the repository. Use these build settings:
+The app is hosted on Cloudflare Pages at [cookie-clicker-gift-code-generator.jacob-jordan.me](https://cookie-clicker-gift-code-generator.jacob-jordan.me/). Every push to `main` deploys automatically, and other branches get their own preview addresses. Pages builds straight from the repository with these settings:
 
 | Setting          | Value           |
 | ---------------- | --------------- |

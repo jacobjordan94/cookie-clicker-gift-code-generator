@@ -8,7 +8,7 @@
         "type": "git",
         "url": "git+https://github.com/jacobjordan94/cookie-clicker-gift-code-generator.git"
     },
-    "homepage": "https://github.com/jacobjordan94/cookie-clicker-gift-code-generator#readme",
+    "homepage": "https://cookie-clicker-gift-code-generator.jacob-jordan.me/",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
