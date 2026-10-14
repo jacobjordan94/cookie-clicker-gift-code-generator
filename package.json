@@ -1,0 +1,40 @@
+{
+    "name": "cookie-clicker-gift-code-generator",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Create Cookie Clicker gift codes: choose cookies, a box design and a note, then copy the code. A fan-made replica of the game's Send a Gift window.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacobjordan94/cookie-clicker-gift-code-generator.git"
+    },
+    "homepage": "https://github.com/jacobjordan94/cookie-clicker-gift-code-generator#readme",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "oxlint",
+        "preview": "vite preview",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "dependencies": {
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.3.3",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.7",
+        "@vitejs/plugin-react": "^6.1.1",
+        "oxlint": "^1.81.0",
+        "prettier": "^3.9.10",
+        "tailwindcss": "^4.3.3",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.0",
+        "vite-plugin-checker": "^0.14.5",
+        "vitest": "^5.0.4"
+    },
+    "license": "MIT"
+}

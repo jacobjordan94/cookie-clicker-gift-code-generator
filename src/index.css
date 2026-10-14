@@ -1,0 +1,143 @@
+@import 'tailwindcss';
+
+html,
+body {
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+.gift {
+    background-image: url('/icons.png');
+    width: 48px;
+    height: 48px;
+    display: block;
+    image-rendering: pixelated;
+}
+
+#gift-message-input {
+    background-image: url('/messageBG.png');
+    background-position: center -50px;
+    text-shadow: rgb(98, 92, 72) 0px 0px 2px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 16px;
+    box-shadow: rgb(98, 92, 72) 0px 0px 16px inset;
+}
+
+input,
+textarea {
+    border-radius: 4px;
+}
+
+.framed {
+    padding: 4px 8px;
+    margin: 4px;
+    border: 3px solid transparent;
+    border-image: url('/frameBorder.png') 3 round;
+    border-radius: 2px;
+    box-shadow:
+        0px 0px 1px 2px rgba(0, 0, 0, 0.5),
+        0px 2px 4px rgba(0, 0, 0, 0.25),
+        0px 0px 6px 1px rgba(0, 0, 0, 0.5) inset;
+}
+
+.gift-frame {
+    display: block;
+    padding: 4px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.gift-frame.framed {
+    margin: 0;
+}
+
+main {
+    background: url('/shadedBordersSoft.png'), url('/darkNoise.jpg');
+    background-size:
+        100% 100%,
+        auto;
+    color: white;
+}
+
+#send-a-gift {
+    color: #ece2b6;
+    text-shadow:
+        0px 1px 0px #733726,
+        0px 2px 0px #875626,
+        0px 2px 1px #000,
+        0px 2px 3px #000;
+    font-weight: bold;
+}
+
+#send-a-gift > span::before,
+#send-a-gift > span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 39px;
+    height: 23px;
+    background-repeat: no-repeat;
+}
+
+#send-a-gift > span::before {
+    background-image: url('/featherLeft.png');
+    left: -39px;
+}
+
+#send-a-gift > span::after {
+    background-image: url('/featherRight.png');
+    right: -39px;
+}
+
+#send-a-gift > span {
+    position: relative;
+}
+
+div.line {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+    height: 1px;
+    width: 90%;
+    margin: 12px auto;
+}
+
+label {
+    font-size: 11px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tiny-cookie {
+    position: relative;
+    padding-left: 18px;
+    font-size: 12px;
+}
+
+.tiny-cookie::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(/money.png);
+    width: 16px;
+    height: 16px;
+}
+
+/* Hide the number input's spinner arrows (Firefox) */
+input[type='number'] {
+    appearance: textfield;
+}
+
+/* Chrome, Edge and Safari draw the arrows as separate elements */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
