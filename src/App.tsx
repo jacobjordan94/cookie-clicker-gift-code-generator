@@ -13,8 +13,8 @@ function App() {
     const cookieValue = clampCookies(cookieInput);
 
     return (
-        <main className="flex flex-col min-h-screen items-center justify-center p-6">
-            <div className="children-container framed h-full w-fit">
+        <main className="flex flex-col min-h-svh items-center justify-center p-6">
+            <div className="children-container framed w-fit 3xl:scale-150 4xl:scale-200">
                 <div id="send-a-gift" className="flex justify-center my-2">
                     <span>SEND A GIFT</span>
                 </div>

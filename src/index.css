@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+@theme {
+    --breakpoint-3xl: 160rem; /* 2560px */
+    --breakpoint-4xl: 240rem; /* 3840px */
+}
+
+
 html,
 body {
     font-family: 'Merriweather', Georgia, serif;
